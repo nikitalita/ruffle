@@ -9,6 +9,7 @@
         "serve": "webpack serve"
     },
     "dependencies": {
+        "canvasinput": "^1.2.7",
         "ruffle-core": "^0.1.0"
     },
     "devDependencies": {

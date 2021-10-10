@@ -538,11 +538,11 @@ impl Ruffle {
         };
 
         // Prevent touch-scrolling on canvas.
-        canvas
+        canvas            
             .style()
             .set_property("touch-action", "none")
             .warn_on_error();
-
+        canvas.set_id("ruffle_canvas");
         // Register the instance and create the animation frame closure.
         let mut ruffle = Ruffle::add_instance(instance)?;
 

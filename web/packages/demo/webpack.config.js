@@ -4,7 +4,7 @@ const path = require("path");
 const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = (_env, _argv) => {
-    const mode = process.env.NODE_ENV || "production";
+    const mode = process.env.NODE_ENV || "development";
     console.log(`Building ${mode}...`);
 
     return {

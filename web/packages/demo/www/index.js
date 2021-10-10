@@ -1,5 +1,5 @@
 import "./index.css";
-
+require("../node_modules/canvasinput/CanvasInput")
 import { SourceAPI, PublicAPI } from "ruffle-core";
 
 window.RufflePlayer = PublicAPI.negotiate(
